@@ -7,11 +7,12 @@ import org.springframework.web.servlet.ModelAndView;
 
 public class BaseController {
 
-	static Logger log = Logger.getLogger(BaseController.class.getName());
+	//static Logger log = Logger.getLogger(BaseController.class.getName());
 
 	@RequestMapping(value = "/mainPage", method = RequestMethod.GET)
 	public ModelAndView index() {
-		log.info("Initializing PropertyDB");
+		System.out.println("Initializing PropertyDB");
+		//log.info("Initializing PropertyDB");
 		return new ModelAndView("main.page");
 	}
 }

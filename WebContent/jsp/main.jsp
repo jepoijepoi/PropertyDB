@@ -1,4 +1,5 @@
 <div ng-app="">
+	<script type="text/javascript">alert("Hey!");</script>
 	<h1>Hello World!</h1>
 		<p>Name: <input type="text" ng-model="name"></p>
 		Hello <span ng-bind="name"></span>
