@@ -30,13 +30,13 @@ public class OwnerController extends BaseController {
 
 	/* It provides list of actors in model object */
 	@RequestMapping("/viewOwnerList")
-	public ModelAndView viewActorList() {
-		List<Owner> actorList = ownerDAO.getOwners();
+	public ModelAndView viewOwnerList() {
+		List<Owner> ownerList = ownerDAO.getOwners();
 		// System.out.println("into list");
 		// for(Actor actor : actorList) {
 		// System.out.println(actor.getFirstName() + " " + actor.getLastName());
 		// }
-		return new ModelAndView("viewActorList.page", "actorList", actorList);
+		return new ModelAndView("viewOwnerList.page", "ownerList", ownerList);
 	}
 
 	/*

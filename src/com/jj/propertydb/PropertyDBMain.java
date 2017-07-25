@@ -24,7 +24,7 @@ public class PropertyDBMain {
 		Owner owner = ownerDAO.getOwnerById(22);
 		
 		log.info(owner.getOwnerFName() + " " + owner.getOwnerLName());
-
+		
 		// List<Actor> actorsList = actorDAO.getActors();
 		// System.out.println(actorsList.get(22).getFirstName());
 	}

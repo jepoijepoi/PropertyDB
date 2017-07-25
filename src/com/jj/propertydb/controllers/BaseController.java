@@ -11,7 +11,7 @@ public class BaseController {
 
 	@RequestMapping(value = "/mainPage", method = RequestMethod.GET)
 	public ModelAndView index() {
-		log.info("Initializing TestWebProject");
+		log.info("Initializing PropertyDB");
 		return new ModelAndView("main.page");
 	}
 }
