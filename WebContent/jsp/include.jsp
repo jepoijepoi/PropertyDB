@@ -19,7 +19,7 @@
 <body>
 <script>
 $(document).ready(function(){
-    $('#actorTable').DataTable();
+    $('#ownerTable').DataTable();
 });
 </script>
 </body>

@@ -5,7 +5,7 @@
 <tiles-definitions>
 	<definition name="base.definition"
 		template="/jsp/layout.jsp">
-		<put-attribute name="title" value="My App" />
+		<put-attribute name="title" value="Property DB" />
 		<put-attribute name="header" value="/jsp/header.jsp" />
 		<put-attribute name="body" value="" />
 		<put-attribute name="footer" value="/jsp/footer.jsp" />
@@ -16,19 +16,19 @@
 		<put-attribute name="body" value="/jsp/main.jsp" />
 	</definition>
 
-	<definition name="viewActorList.page" extends="base.definition">
-		<put-attribute name="title" value="View Actors" />
-		<put-attribute name="body" value="/jsp/viewActorList.jsp" />
+	<definition name="viewOwnerList.page" extends="base.definition">
+		<put-attribute name="title" value="View Owners" />
+		<put-attribute name="body" value="/jsp/viewOwnerList.jsp" />
 	</definition>
 
-	<definition name="insertActorForm.page" extends="base.definition">
-		<put-attribute name="title" value="Add New Actor" />
-		<put-attribute name="body" value="/jsp/insertActorForm.jsp" />
+	<definition name="insertOwnerForm.page" extends="base.definition">
+		<put-attribute name="title" value="Add New Owner" />
+		<put-attribute name="body" value="/jsp/insertOwnerForm.jsp" />
 	</definition>
 	
-	<definition name="editActorForm.page" extends="base.definition">
-		<put-attribute name="title" value="Edit Actor" />
-		<put-attribute name="body" value="/jsp/editActorForm.jsp" />
+	<definition name="editOwnerForm.page" extends="base.definition">
+		<put-attribute name="title" value="Edit Owner" />
+		<put-attribute name="body" value="/jsp/editOwnerForm.jsp" />
 	</definition>
 	
 </tiles-definitions>

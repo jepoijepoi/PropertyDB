@@ -10,19 +10,15 @@
 		<property name="driverClassName" value="com.mysql.jdbc.Driver" />
 		<property name="url" value="jdbc:mysql://127.0.0.1:3306/propertydb" />
 		<property name="username" value="root" />
-		<property name="password" value="password" />
+		<property name="password" value="Jep@012016" />
 	</bean>
 
 	<bean id="jdbctemplate" class="org.springframework.jdbc.core.JdbcTemplate">
 		<property name="dataSource" ref="dataSource"></property>
 	</bean>
 
-	<bean id="ownerDAO" class="com.ul.testwebproject.dao.OwnerDAOImpl">
+	<bean id="ownerDAO" class="com.jj.propertydb.dao.OwnerDAOImpl">
 		<property name="jdbcTemplateObject" ref="jdbctemplate"></property>
-	</bean>
-
-	<bean id="helloWorld" class="com.ul.testwebproject.HelloWorld" scope="prototype">
-		<!-- property name="message" value="Hello World!" /-->
 	</bean>
 
 </beans>

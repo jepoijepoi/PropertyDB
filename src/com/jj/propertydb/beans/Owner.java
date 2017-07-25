@@ -6,8 +6,6 @@ public class Owner {
 	
 	private String ownerFName;
 	
-	private String ownerMName;
-	
 	private String ownerLName;
 
 	public int getOwnerId() {
@@ -24,14 +22,6 @@ public class Owner {
 
 	public void setOwnerFName(String ownerFName) {
 		this.ownerFName = ownerFName;
-	}
-
-	public String getOwnerMName() {
-		return ownerMName;
-	}
-
-	public void setOwnerMName(String ownerMName) {
-		this.ownerMName = ownerMName;
 	}
 
 	public String getOwnerLName() {

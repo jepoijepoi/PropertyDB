@@ -3,7 +3,7 @@
 		<p>Name: <input type="text" ng-model="name"></p>
 		Hello <span ng-bind="name"></span>
 		<hr/>
-	<a href="insertActorForm" class="btn btn-primary">Add Actor</a>  
-	<a href="viewActorList" class="btn btn-primary">View Actors</a>  
+	<a href="insertOwnerForm" class="btn btn-primary">Add Owner</a>  
+	<a href="viewOwnerList" class="btn btn-primary">View Owners</a>  
 	<div id="crunchifyMessage"></div>
 </div>
